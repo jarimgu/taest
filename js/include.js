@@ -22,4 +22,4 @@ function includeHTML() {
 }
 
 // DOM이 준비된 후 실행
-// document.addEventListener("DOMContentLoaded", includeHTML);
+document.addEventListener("DOMContentLoaded", includeHTML);
