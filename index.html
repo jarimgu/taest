@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>My Site</title>
+  <title>Include Example</title>
 </head>
 <body>
-  
-  <!-- Header Include -->
-  <div data-include-path="includes/header.html"></div>
+  <!-- 공통 헤더/푸터 -->
+  <div data-include="/includes/header.html"></div>
 
   <main>
-    <h1>Welcome to my site!</h1>
-    <p>This is the homepage.</p>
+    <h2>Main Content</h2>
   </main>
 
-  <!-- Footer Include -->
-  <div data-include-path="includes/footer.html"></div>
+  <div data-include="/includes/footer.html"></div>
 
-  <!-- Load Include Script -->
+  <!-- 자바스크립트 -->
   <script src="js/include.js"></script>
 </body>
 </html>
