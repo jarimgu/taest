@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Include Example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
 </head>
 <body>
-  <!-- 공통 헤더/푸터 -->
-  <div data-include="/includes/header.html"></div>
+    <div id="header"></div>
 
-  <main>
-    <h2>Main Content</h2>
-  </main>
+    <main>
+      <h2>Welcome to the homepage!</h2>
+      <p>Some content here...</p>
+    </main>
 
-  <div data-include="/includes/footer.html"></div>
+    <div id="footer"></div>
 
-  <!-- 자바스크립트 -->
-  <script src="js/include.js"></script>
+    <script src="js/include.js" defer></script>
 </body>
 </html>
