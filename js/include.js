@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("header").innerHTML = data;
 
         // header 로딩 이후 접근
-        const headerElement = document.getElementById("main-header");
-        console.log("Header loaded:", headerElement);
+        // const headerElement = document.getElementById("main-header");
+        // console.log("Header loaded:", headerElement);
         // 여기에 header 관련 JS 로직 추가
+        console.log(document.querySelector('nav'))
     });
 
     // footer 불러오기
@@ -19,7 +20,3 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("footer").innerHTML = data;
     });
 });
-
-const header = () => {
-    console.log(document.querySelector('nav'))
-}
